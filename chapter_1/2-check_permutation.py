@@ -4,7 +4,7 @@
 # Note:
 # This solution only applies for languages with a Latin alphabet, other languages that use different character sets (like unicode) are not contemplated here.
 
-from testing_function import testFunction
+from testing_functions import testFunction
 
 def normalizeCase(text):
 	return text.lower()

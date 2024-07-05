@@ -5,7 +5,7 @@
 # Input: Tact Coa
 # Output: True (permutations: "taco cat", "atco cta", etc.)
 
-from testing_function import testFunction
+from testing_functions import testFunction
 
 def normalizeCase(text):
 	return text.lower()

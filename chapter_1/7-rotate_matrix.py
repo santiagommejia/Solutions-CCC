@@ -1,7 +1,7 @@
 # Problem Description
 # Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. Can you do this in place?
 
-from testing_function import printMatrix
+from testing_functions import printMatrix
 
 def rotateMatrix(matrix, N):
 	rotatedMatrix = [[0 for _ in range(N)] for _ in range(N)]

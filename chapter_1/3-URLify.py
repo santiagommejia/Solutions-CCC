@@ -5,7 +5,7 @@
 # Input: "Mr John Smith    ", 13
 # Output: "Mr%20John%20Smith"
 
-from testing_function import testFunction
+from testing_functions import testFunction
 
 def URLify(text):
 	text = text.strip()

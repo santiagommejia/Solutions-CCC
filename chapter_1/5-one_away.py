@@ -7,7 +7,7 @@
 # pale, bale -> true
 # pale, bake -> false
 
-from testing_function import testFunction
+from testing_functions import testFunction
 
 def testIsOneAway(texts):
 	return isOneAway(texts[0], texts[1])

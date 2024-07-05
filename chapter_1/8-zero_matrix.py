@@ -1,7 +1,7 @@
 # Problem Description
 # Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
 
-from testing_function import printMatrix
+from testing_functions import printMatrix
 
 def zeroMatrix(matrix, rows, cols):
 	zeroMat = [[matrix[x][y] for y in range(cols)] for x in range(rows)]
